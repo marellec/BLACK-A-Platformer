@@ -1,0 +1,195 @@
+
+
+{
+    
+    "downloadable": true,
+
+    "characters": {
+    
+        "filename": "buttons",
+
+        "entities": {
+
+            "combo": {
+                
+                "width": 0,
+                "height": 0,
+
+                "x": 0,
+                "y": 0,
+                
+                "animations": [],
+
+                "traits": [
+                    {
+                        "type_name": "Kick",
+                        "setup": []
+                    }
+                ]
+            },
+
+            "left": {
+                
+                "width": 17,
+                "height": 29,
+
+                "x": 9,
+                "y": 33,
+
+                "animations": [
+                    {   
+                        "name": "idle",
+
+                        "rect": [0, 0, 17, 29], 
+                        "count": 1, 
+                        "colorkey": 1, 
+                        "loop": false,
+                        "frame_dividend": 1
+                    },
+
+                    {   
+                        "name": "pushed",
+
+                        "rect": [0, 0, 17, 29], 
+                        "count": 2, 
+                        "colorkey": 1, 
+                        "loop": false,
+                        "frame_dividend": 30
+                    }
+                ],
+
+                "traits": [
+                    {
+                        "type_name": "Push",
+                        "setup": ["left"]
+                    }
+                ]
+
+            },
+
+            "up": {
+                
+                "width": 17,
+                "height": 29,
+
+                "x": 36.5,
+                "y": 3,
+
+                "animations": [
+                    {   
+                        "name": "idle",
+
+                        "rect": [0, 29, 17, 29], 
+                        "count": 1, 
+                        "colorkey": 1, 
+                        "loop": false,
+                        "frame_dividend": 1
+                    },
+
+                    {   
+                        "name": "pushed",
+
+                        "rect": [0, 29, 17, 29], 
+                        "count": 2, 
+                        "colorkey": 1, 
+                        "loop": false,
+                        "frame_dividend": 30
+                    }
+                ],
+
+                "traits": [
+                    {
+                        "type_name": "Push",
+                        "setup": ["up"]
+                    }
+                ]
+
+            },
+
+            "down": {
+                
+                "width": 17,
+                "height": 29,
+
+                "x": 36.5,
+                "y": 36,
+
+                "animations": [
+                    {   
+                        "name": "idle",
+
+                        "rect": [0, 58, 17, 29], 
+                        "count": 1, 
+                        "colorkey": 1, 
+                        "loop": false,
+                        "frame_dividend": 1
+                    },
+
+                    {   
+                        "name": "pushed",
+
+                        "rect": [0, 58, 17, 29], 
+                        "count": 2, 
+                        "colorkey": 1, 
+                        "loop": false,
+                        "frame_dividend": 30
+                    }
+                ],
+
+                "traits": [
+                    {
+                        "type_name": "Push",
+                        "setup": ["down"]
+                    }
+                ]
+
+            },
+
+            "right": {
+                
+                "width": 17,
+                "height": 29,
+
+                "x": 64,
+                "y": 33,
+
+                "animations": [
+                    {   
+                        "name": "idle",
+
+                        "rect": [0, 87, 17, 29], 
+                        "count": 1, 
+                        "colorkey": 1, 
+                        "loop": false,
+                        "frame_dividend": 1
+                    },
+
+                    {   
+                        "name": "pushed",
+
+                        "rect": [0, 87, 17, 29], 
+                        "count": 2, 
+                        "colorkey": 1, 
+                        "loop": false,
+                        "frame_dividend": 30
+                    }
+                ],
+
+                "traits": [
+                    {
+                        "type_name": "Push",
+                        "setup": ["right"]
+                    }
+                ]
+
+            }
+        }
+    },
+
+
+    "camera": {
+
+        "setup": [90, 69]
+    }
+
+}
