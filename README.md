@@ -1,4 +1,4 @@
-# Platformer
+# BLACK: A Platformer
 
 Has tile collision detection and animated sprite support. Use arrow keys to move character.
 
